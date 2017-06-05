@@ -1,0 +1,71 @@
+/*Folha de estilos da página Historico.php*/
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header h1 {
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+section {
+    background: #fff;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+table {
+    font-family: 'Roboto Condensed', sans-serif;
+    width:500;
+    border:1;
+    /*cellspacing:2;
+    cellpadding:5;*/
+}
+
+section {
+    text-align: center;
+    /*margin: 0 auto;*/
+}
+
+section:first-child {
+    margin-top: 60px;
+}
+
+section:last-child {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+tr:first-child {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+    
+    color: #fff;
+}
+
+.table>tbody>tr.info>td {
+    border-top-width: 0px;
+    background-color: #302f35 !important;
+}
+
+header {
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+}
+
+header a {
+    position: absolute;
+    left: 0;
+    right: auto;
+    color: #fff;
+}
+
+header a:hover {
+    border-color: #000;
+    color: #000;
+}
